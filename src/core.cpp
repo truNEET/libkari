@@ -1,4 +1,5 @@
 #include <kari/core.hpp>
+#include <memory>
 
 namespace ka {
 
