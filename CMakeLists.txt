@@ -15,6 +15,7 @@ include_directories (
 )
 
 add_library (${OUTPUT} STATIC
+	src/service.cpp
 	src/rectangle.cpp
 	src/core.cpp
 )
