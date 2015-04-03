@@ -9,8 +9,10 @@ include_directories (
 )
 
 add_library (${OUTPUT} SHARED
-	src/core.cpp
+	src/service.cpp
+	src/luabridge.cpp
 	src/rectangle.cpp
+	src/core.cpp
 )
 
 target_link_libraries (${OUTPUT}
