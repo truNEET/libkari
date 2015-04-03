@@ -14,9 +14,7 @@ include_directories (
 	include/
 )
 
-add_library (${OUTPUT} SHARED
-	src/service.cpp
-	src/luabridge.cpp
+add_library (${OUTPUT} STATIC
 	src/rectangle.cpp
 	src/core.cpp
 )
