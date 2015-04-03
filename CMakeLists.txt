@@ -5,7 +5,7 @@ set (OUTPUT "kari")
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 if (WIN32)
-	set (PLAT_LIBS "##")
+	set (PLAT_LIBS "${CMAKE_CURRENT_SOURCE_DIR}/lib/windows/libual.a")
 else()
 	set (PLAT_LIBS "${CMAKE_CURRENT_SOURCE_DIR}/lib/linux/liblua.a")
 endif()
