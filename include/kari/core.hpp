@@ -1,5 +1,5 @@
-#ifndef KARI_HPP
-#define KARI_HPP
+#ifndef KACORE_HPP
+#define KACORE_HPP
 
 #include <kari/rectangle.hpp>
 #include <string>
